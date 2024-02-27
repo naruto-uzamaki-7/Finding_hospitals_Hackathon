@@ -6,7 +6,7 @@
   <parameter name="os" value="windows"/>
 <groups>
 <run>
-<include name="smoke"/>
+
 
 </run>
 </groups>

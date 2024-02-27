@@ -4,6 +4,10 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value="edge"/>
   <parameter name="os" value="windows"/>
+  <groups>
+  <run>
+  </run>
+  </groups>
 
     <classes>
       <class name="testCases.TC_01_HomePage"/>
