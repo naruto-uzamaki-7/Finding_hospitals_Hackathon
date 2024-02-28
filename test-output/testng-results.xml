@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T13:53:08 IST" name="Suite" finished-at="2024-02-27T14:01:02 IST" duration-ms="474291">
+  <suite started-at="2024-02-28T15:34:07 IST" name="Suite" finished-at="2024-02-28T15:37:02 IST" duration-ms="175497">
     <groups>
       <group name="regression">
-        <method signature="TC_01_HomePage.homepage_input()[pri:0, instance:testCases.TC_01_HomePage@4c163e3]" name="homepage_input" class="testCases.TC_01_HomePage"/>
+        <method signature="TC_01_HomePage.homepage_input()[pri:0, instance:testCases.TC_01_HomePage@7fd50002]" name="homepage_input" class="testCases.TC_01_HomePage"/>
+        <method signature="TC_02_Surgeries.print_surgeries()[pri:0, instance:testCases.TC_02_Surgeries@4a8355dd]" name="print_surgeries" class="testCases.TC_02_Surgeries"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TC_01_HomePage.homepage_input()[pri:0, instance:testCases.TC_01_HomePage@4c163e3]" name="homepage_input" class="testCases.TC_01_HomePage"/>
-        <method signature="TC_03_HealthandWellness.verify_details()[pri:0, instance:testCases.TC_03_HealthandWellness@4bdeaabb]" name="verify_details" class="testCases.TC_03_HealthandWellness"/>
+        <method signature="TC_01_HomePage.homepage_input()[pri:0, instance:testCases.TC_01_HomePage@7fd50002]" name="homepage_input" class="testCases.TC_01_HomePage"/>
+        <method signature="TC_03_HealthandWellness.verify_details()[pri:0, instance:testCases.TC_03_HealthandWellness@4d0d9fe7]" name="verify_details" class="testCases.TC_03_HealthandWellness"/>
       </group> <!-- smoke -->
       <group name="master">
-        <method signature="TC_01_HomePage.homepage_input()[pri:0, instance:testCases.TC_01_HomePage@4c163e3]" name="homepage_input" class="testCases.TC_01_HomePage"/>
-        <method signature="TC_03_HealthandWellness.verify_details()[pri:0, instance:testCases.TC_03_HealthandWellness@4bdeaabb]" name="verify_details" class="testCases.TC_03_HealthandWellness"/>
+        <method signature="TC_01_HomePage.homepage_input()[pri:0, instance:testCases.TC_01_HomePage@7fd50002]" name="homepage_input" class="testCases.TC_01_HomePage"/>
+        <method signature="TC_02_Surgeries.print_surgeries()[pri:0, instance:testCases.TC_02_Surgeries@4a8355dd]" name="print_surgeries" class="testCases.TC_02_Surgeries"/>
+        <method signature="TC_03_HealthandWellness.verify_details()[pri:0, instance:testCases.TC_03_HealthandWellness@4d0d9fe7]" name="verify_details" class="testCases.TC_03_HealthandWellness"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-02-27T13:53:08 IST" name="Test" finished-at="2024-02-27T14:01:02 IST" duration-ms="474291">
+    <test started-at="2024-02-28T15:34:07 IST" name="Test" finished-at="2024-02-28T15:37:02 IST" duration-ms="175497">
       <class name="testCases.TC_03_HealthandWellness">
-        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_03_HealthandWellness@4bdeaabb]" started-at="2024-02-27T13:58:21 IST" name="launch" finished-at="2024-02-27T13:59:14 IST" duration-ms="53056" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_03_HealthandWellness@4d0d9fe7]" started-at="2024-02-28T15:36:25 IST" name="launch" finished-at="2024-02-28T15:36:38 IST" duration-ms="13646" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,17 +36,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="verify_details()[pri:0, instance:testCases.TC_03_HealthandWellness@4bdeaabb]" started-at="2024-02-27T13:59:14 IST" name="verify_details" finished-at="2024-02-27T14:00:57 IST" duration-ms="103087" status="PASS">
+        <test-method signature="verify_details()[pri:0, instance:testCases.TC_03_HealthandWellness@4d0d9fe7]" started-at="2024-02-28T15:36:38 IST" name="verify_details" finished-at="2024-02-28T15:36:57 IST" duration-ms="19001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_details -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC_03_HealthandWellness@4bdeaabb]" started-at="2024-02-27T14:00:57 IST" name="quit" finished-at="2024-02-27T14:01:02 IST" duration-ms="4867" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC_03_HealthandWellness@4d0d9fe7]" started-at="2024-02-28T15:36:57 IST" name="quit" finished-at="2024-02-28T15:37:02 IST" duration-ms="5225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- testCases.TC_03_HealthandWellness -->
       <class name="testCases.TC_01_HomePage">
-        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_01_HomePage@4c163e3]" started-at="2024-02-27T13:53:09 IST" name="launch" finished-at="2024-02-27T13:54:01 IST" duration-ms="52528" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_01_HomePage@7fd50002]" started-at="2024-02-28T15:34:08 IST" name="launch" finished-at="2024-02-28T15:34:24 IST" duration-ms="16322" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,15 +62,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="homepage_input()[pri:0, instance:testCases.TC_01_HomePage@4c163e3]" started-at="2024-02-27T13:54:01 IST" name="homepage_input" finished-at="2024-02-27T13:58:13 IST" duration-ms="252274" status="PASS">
+        <test-method signature="homepage_input()[pri:0, instance:testCases.TC_01_HomePage@7fd50002]" started-at="2024-02-28T15:34:24 IST" name="homepage_input" finished-at="2024-02-28T15:36:00 IST" duration-ms="95900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage_input -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC_01_HomePage@4c163e3]" started-at="2024-02-27T13:58:14 IST" name="quit" finished-at="2024-02-27T13:58:21 IST" duration-ms="7229" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC_01_HomePage@7fd50002]" started-at="2024-02-28T15:36:00 IST" name="quit" finished-at="2024-02-28T15:36:05 IST" duration-ms="5055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- testCases.TC_01_HomePage -->
+      <class name="testCases.TC_02_Surgeries">
+        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_02_Surgeries@4a8355dd]" started-at="2024-02-28T15:36:05 IST" name="launch" finished-at="2024-02-28T15:36:18 IST" duration-ms="12935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="print_surgeries()[pri:0, instance:testCases.TC_02_Surgeries@4a8355dd]" started-at="2024-02-28T15:36:18 IST" name="print_surgeries" finished-at="2024-02-28T15:36:21 IST" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_surgeries -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC_02_Surgeries@4a8355dd]" started-at="2024-02-28T15:36:21 IST" name="quit" finished-at="2024-02-28T15:36:25 IST" duration-ms="3654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.TC_02_Surgeries -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

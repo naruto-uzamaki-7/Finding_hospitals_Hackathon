@@ -34,3 +34,17 @@
 13:59:56.053 [main] INFO  testCases.TC_03_HealthandWellness - Clicked on health and wellness
 13:59:56.054 [main] INFO  testCases.TC_03_HealthandWellness - Entering the details
 14:00:57.437 [main] INFO  testCases.TC_03_HealthandWellness - ***********Finished with TC_03_HealthandWellness**********
+15:34:25.051 [main] INFO  testCases.TC_01_HomePage - *******Starting TC_01_HomePage************ 
+15:35:30.703 [main] INFO  testCases.TC_01_HomePage - Clicked on location
+15:35:34.971 [main] INFO  testCases.TC_01_HomePage - Clicked on Specialist
+15:35:34.972 [main] INFO  testCases.TC_01_HomePage - Adding filters
+15:36:00.831 [main] INFO  testCases.TC_01_HomePage - ***********Finished with TC_01_HomePage***********
+15:36:18.912 [main] INFO  testCases.TC_02_Surgeries - ***********Starting TC_02_Surgeries**********
+15:36:21.115 [main] INFO  testCases.TC_02_Surgeries - Clicked on surgeries
+15:36:21.367 [main] INFO  testCases.TC_02_Surgeries - Getting list of surgeries
+15:36:21.368 [main] INFO  testCases.TC_02_Surgeries - ************Finished with TC_02_Surgeries**********
+15:36:38.682 [main] INFO  testCases.TC_03_HealthandWellness - ***********Starting TC_03_HealthandWellness**********
+15:36:39.064 [main] INFO  testCases.TC_03_HealthandWellness - Clicked on forCorporates
+15:36:44.741 [main] INFO  testCases.TC_03_HealthandWellness - Clicked on health and wellness
+15:36:44.752 [main] INFO  testCases.TC_03_HealthandWellness - Entering the details
+15:36:57.678 [main] INFO  testCases.TC_03_HealthandWellness - ***********Finished with TC_03_HealthandWellness**********

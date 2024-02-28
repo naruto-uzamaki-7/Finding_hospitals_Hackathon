@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC_01_HomePage" class="method navigator-link" hash-for-method="homepage_input">homepage_input</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_02_Surgeries" class="method navigator-link" hash-for-method="print_surgeries">print_surgeries</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -126,14 +131,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_03_HealthandWellness</span>
+              <span class="class-name">testCases.TC_02_Surgeries</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_details">
-                  </a> <!-- verify_details -->
-                  <span class="method-name">verify_details</span>
+                  <a name="print_surgeries">
+                  </a> <!-- print_surgeries -->
+                  <span class="method-name">print_surgeries</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -153,6 +158,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_03_HealthandWellness</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_details">
+                  </a> <!-- verify_details -->
+                  <span class="method-name">verify_details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -166,11 +186,6 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;smoke&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC_01_HomePage&quot;/&gt;
       &lt;class name=&quot;testCases.TC_02_Surgeries&quot;/&gt;
@@ -206,6 +221,10 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">print_surgeries</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">verify_details</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -215,6 +234,10 @@
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">homepage_input</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">print_surgeries</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -246,20 +269,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'homepage_input')
 data.setCell(0, 2, 'testCases.TC_01_HomePage')
-data.setCell(0, 3, 252274);
+data.setCell(0, 3, 95900);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verify_details')
 data.setCell(1, 2, 'testCases.TC_03_HealthandWellness')
-data.setCell(1, 3, 103087);
+data.setCell(1, 3, 19001);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'print_surgeries')
+data.setCell(2, 2, 'testCases.TC_02_Surgeries')
+data.setCell(2, 3, 2463);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -274,16 +301,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_02_Surgeries</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">print_surgeries</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -299,26 +319,41 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">homepage_input</span>
-                <span class="method-start">52599 ms</span>
+                <span class="method-start">16422 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quit</span>
-                <span class="method-start">305031 ms</span>
+                <span class="method-start">112397 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_02_Surgeries</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launch(windows, chrome)</span>
+                <span class="method-start">117458 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">print_surgeries</span>
+                <span class="method-start">130396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">132864 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC_03_HealthandWellness</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">launch(windows, chrome)</span>
-                <span class="method-start">312266 ms</span>
+                <span class="method-start">136519 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verify_details</span>
-                <span class="method-start">365326 ms</span>
+                <span class="method-start">150168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quit</span>
-                <span class="method-start">468424 ms</span>
+                <span class="method-start">169177 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
